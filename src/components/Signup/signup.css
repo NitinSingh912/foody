@@ -1,0 +1,88 @@
+.Signup-page-css {
+    background-image: url('https://imgs.search.brave.com/opsyhwGPZls6vlJZ3CilqKhnL22qZ_6PNL18PAibrwg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/aGVmLWNvb2tpbmct/Zm9vZC1yZXN0YXVy/YW50LWtpdGNoZW5f/NTM4NzYtNjcuanBn/P3NpemU9NjI2JmV4/dD1qcGc');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup-content {
+    height: 55%;
+    width: 25%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.Signup-content>div {
+    height: 80%;
+    width: 70%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+input {
+    padding-left: 1rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    border:1px solid rgba(135, 207, 235, 0.705);
+}
+ input::placeholder{
+    padding-left: 1rem;
+}
+label{
+    display: flex;
+    gap: 4px;
+}
+.double-stuff{
+    display: flex;
+    justify-content: space-between;
+}
+label span,.forget-password{
+    font-weight: 400;
+    font-size: 13px;
+
+}
+label>input:hover{
+    cursor: pointer;
+}
+.forget-password:hover{
+    text-decoration: underline;
+  cursor: pointer;
+  color: rgba(135, 207, 235, 0.671);
+}
+.signup{
+    font-weight: 400;
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: .5px;
+
+}
+.signup>span{
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Signup-button button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
