@@ -8,30 +8,71 @@ header {
     width: 100vw;
     height: 5rem;
     position: fixed;
-  
+
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
     align-items: center;
 
 }
-a{
+.dropdown{
+    top: 120px;
+    position: relative;
+    height: 80vh;
+    width: 99vw;
+    background-color: white;
+    z-index: 0;
+}
+a {
     text-decoration: none;
     color: black;
     font-weight: 900;
 }
-a:hover{
+.ul-dropdown{
+    display: flex;
+    flex-direction: column;
+    padding-top: 270px;
+    gap: 2rem;
+    align-items: center;
+}
+.dropdown{
+    border-radius: 30px;
+
+}
+a:hover {
     color: skyblue;
 }
+
 ul {
     display: flex;
     gap: 2rem;
 }
+
 li {
     list-style-type: none;
     font-weight: 900;
 }
-li:hover{
-  cursor: pointer;
-  color: brown;
+
+li:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.right-side-header-for-mobile {
+    display: none;
+
+}
+
+@media all and (max-width:630px) {
+    .right-side-header-for-mobile {
+        margin-right: .3rem;
+        display: block;
+        position: absolute;
+       right: 40px;
+        z-index: 100;
+    }
+
+    .right-side-header {
+        display: none;
+    }
 }

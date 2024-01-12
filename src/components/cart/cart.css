@@ -1,0 +1,169 @@
+.outer-cart-page{
+    min-height: 100vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+}
+.nothing-in-cart{
+    text-align: center;
+    padding-top: 15rem;
+}
+.inner-cart-page{
+    width: 50%;
+   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.meal-list{
+    height: 22rem;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px dotted grey;
+    gap: 3rem;
+}
+.left-side-of-meal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.right-side-of-meal{
+  
+    width: 30%;
+    height: 100%;
+}
+
+.right-side-of-meal .meal-img img{
+height: 70%;
+width: 100%;
+border-radius: 10px;
+}
+.cart-button div{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+}
+.cart-button >div button{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+}
+.cart-button button:hover,.footer button:hover{
+  background-color: black;
+  border:none;
+  color: white;
+}
+.rating,.meal-price{
+    display: flex;
+    gap: 2px;
+}
+
+.meal-price >h4{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total-price{
+    align-self: self-start;
+}
+.footer button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+@media all and (max-width:1180px){
+    .inner-cart-page{
+        width: 80%;
+          }
+}
+@media all and (max-width:980px){
+    .inner-cart-page{
+        width: 90%;
+         }
+    .meal-list{
+        height: 20rem;
+        gap: 3rem;
+    }
+}
+@media all and (max-width:835px){
+    .meal-list{
+        height: 17rem;
+        gap: 3rem;
+    }
+    .outer-cart-page{
+           padding-top: 8rem;
+    }
+}
+@media all and (max-width:680px){
+    .meal-list{
+        height: 15rem;
+        gap: 3rem;
+    }
+    .inner-cart-page{
+        width: 90%;
+         }
+}
+@media all and (max-width:550px){
+    .meal-list{
+        height: 14rem;
+        gap: 3rem;
+    }
+    .meal-button button{
+        position: relative;
+        top: -20px;
+        height: 30px;
+        width: 80px;
+       }
+    .right-side-of-meal{
+        width: 50%;
+        height: 100%;
+    }
+    .right-side-of-meal .meal-img img{
+        height: 80%;
+        width: 100%;
+        border-radius: 10px;
+        }
+        .meal-price >h4{
+            font-size: 15px;
+        }
+        .meal-detail{
+            font-size: 14px;
+        }
+}
+@media all and (max-width:450px){
+    .meal-list{
+        height: 13rem;
+        gap: 2rem;
+    }
+    .meal-button button{
+        position: relative;
+        top: -20px;
+        height: 25px;
+        width: 90px;
+      
+    }
+    .meal-detail{
+        font-size: 12px;
+    }
+    .right-side-of-meal{
+        width: 50%;
+        height: 100%;
+    }
+  
+}
+@media all and (max-width:405px){
+  .meal-name>h2{
+    font-size: 20px;
+  }
+  .meal-detail{
+    font-size: 10px;
+}
+}

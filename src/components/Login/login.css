@@ -90,3 +90,45 @@ button:hover{
     cursor: pointer;
     border: 2px solid black;
 }
+@media all and (max-width:1300px){
+    .login-content {
+        height: 45%;
+        width: 30%;
+       
+    }
+}
+@media all and (max-width:1050px){
+    .login-content {
+        height: 45%;
+        width: 40%;
+       
+    }
+}
+@media all and (max-width:790px){
+    .login-content {
+        height: 45%;
+        width: 50%;
+       
+    }
+}
+@media all and (max-width:620px){
+    .login-content {
+        height: 45%;
+        width: 60%;
+       
+    }
+}
+@media all and (max-width:490px){
+    .login-content {
+        height: 40%;
+        width: 80%;
+       
+    }
+}
+@media all and (max-height:700px){
+    .login-content {
+        height: 50%;
+        width: 80%;
+       
+    }
+}

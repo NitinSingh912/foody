@@ -1,0 +1,79 @@
+.contact{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+}
+.image-portion{
+    width: 50%;
+    height: 100%;
+}
+.image-portion img{
+    width: 100%;
+    height: 99%;
+}
+.add-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.add-details>div{
+ height: 70%;
+ width: 60%;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+.user-name > input ,.user-email-address > input,.user-message>textarea{
+    border: none;
+    border-radius: .2px;
+    border-bottom: 2px solid black;
+}
+.user-message>textarea{
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size: 17px;
+    width: 100%;
+}
+.contact-submit-button>button{
+width: 100px;
+height: 40px;
+font-size: 20px;
+}
+@media all and (max-width:950px){
+    .image-portion{
+        width: 50%;
+        height: 70%;
+    }
+}
+@media all and (max-width:690px){
+    .image-portion{
+        width: 50%;
+        height: 70%;
+    }
+    .add-details>div{
+        height: 70%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       }
+}
+@media all and (max-width:570px){
+    .image-portion{
+       display: none;
+    }
+    .add-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    .contact-submit-button>button{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+        }
+}

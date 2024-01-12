@@ -1,0 +1,65 @@
+.about-page{
+      min-height: 100vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;    
+}
+.about-page-details{
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+    min-height: 100vh;
+    }
+.restaurent-details,.chef-details,.hygiene-details{  
+    display: flex;    
+}
+.chef-details{
+    gap: 2rem;
+}
+.restaurent-details div,.chef-details div,.hygiene-details div{
+    width: 50%;
+}
+.restaurent-image ,.chef-image,.hygiene-image{
+    width: 100%;
+}
+.restaurent-image img,.chef-image img,.hygiene-image img{
+    width: 90%;
+    border-radius: 10px;
+}
+.chef-image img{
+    width: 90%;
+    height: 25rem;
+    border-radius: 10px;
+}
+.restuarent-details-in-text>p , .chef-details-in-text>p,.hygiene-details-in-text{
+    padding-top: 1rem;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+
+@media all and (max-width:900px){
+    .about-page-details{
+        width: 90%;       
+    }
+}
+@media all and (max-width:600px){
+    .about-page-details{
+        width: 96%;
+        gap: 2rem;
+    }
+    .chef-image img{
+        width: 90%;
+        height: 20rem;
+        border-radius: 10px;
+    }
+    .restuarent-details-in-text>p , .chef-details-in-text>p,.hygiene-details-in-text{
+       padding-top: .1px;
+        line-height: 17px;
+        letter-spacing: .2px;
+        font-size: 13px; 
+    }
+}

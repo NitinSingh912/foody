@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+.homepage {
+    background-image: url('https://imgs.search.brave.com/tbSTqvaL22mSgNMnIHtYB_JIJhEMC2j_S0nv85vUvek/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OC8wNS8xMi8zMy9m/bGF0LWxheS0yNTgz/MjEzXzY0MC5qcGc');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.homepage> div{
+    width: 50%;
+}
+.right-side-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-side-home>div{
+ height: 50%;
+ width: 40%;
+}
+.right-side-home>div>h1{
+    font-family: 'Zeyada', cursive;
+    font-size: 50px;
+    line-height: 50px;
+}
+.order-button{
+    height: 45px;
+    width: 140px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+@media all and (max-width:600px){
+    .right-side-home>div>h1{
+        font-family: 'Zeyada', cursive;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .order-button{
+        height: 40px;
+        width: 110px;
+        font-size: 17px;
+     
+    }
+}
+@media all and (max-width:400px){
+    .right-side-home>div>h1{
+        font-family: 'Zeyada', cursive;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .order-button{
+        height: 30px;
+        width: 90px;
+        font-size: 14px;
+     
+    }
+}

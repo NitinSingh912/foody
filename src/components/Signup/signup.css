@@ -49,7 +49,6 @@ label{
 label span,.forget-password{
     font-weight: 400;
     font-size: 13px;
-
 }
 label>input:hover{
     cursor: pointer;
@@ -85,4 +84,47 @@ button:hover{
     color: black;
     cursor: pointer;
     border: 2px solid black;
+}
+
+@media all and (max-width:1200px){
+    .Signup-content {
+        height: 50%;
+        width: 35%;
+    }
+}
+@media all and (max-width:870px){
+    .Signup-content {
+        height: 50%;
+        width: 45%;
+    }
+}
+@media all and (max-width:630px){
+    .Signup-content {
+        height: 50%;
+        width: 55%;
+    }
+}
+@media all and (max-width:500px){
+    .Signup-content {
+        height: 50%;
+        width: 65%;
+    }
+}
+@media all and (max-width:440px){
+    .Signup-content {
+        height: 50%;
+        width: 75%;
+    }
+}
+@media all and (max-width:390px){
+    .Signup-content {
+        height: 50%;
+        width: 85%;
+   }
+}
+@media all and (max-height:700px){
+    .Signup-content {
+        height: 60%;
+        width: 85%;
+   }
 }
